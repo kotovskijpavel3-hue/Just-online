@@ -1,0 +1,17 @@
+{
+  "name": "just-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Комната с живыми курсорами: все видят друг друга и комментарии над курсором",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

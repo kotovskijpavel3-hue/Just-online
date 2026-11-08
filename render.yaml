@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: just-online
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.11.0
